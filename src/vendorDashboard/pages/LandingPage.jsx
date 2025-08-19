@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavBar'
 import SideBar from '../components/SideBar'
 import Login from '../components/forms/Login'
 import Register from '../components/forms/Register'
