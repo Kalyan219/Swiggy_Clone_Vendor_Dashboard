@@ -38,11 +38,11 @@ const Register = ({showLoginHandler}) => {
         <form className='authForm' onSubmit={handleSubmit}>
             <h3>Vendor Register</h3>
             <label>Username</label><br/>
-           <input type='text' name='username' value={username} onChange={(e) => setUsername(e.target.value)} placeholder='enter your username' /><br/>
+           <input placeholder='enter your username' type='text' name='username' value={username} onChange={(e) => setUsername(e.target.value)}  /><br/>
            <label>Email</label><br/>
-           <input type='text' name='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='enter your email' /><br/>
+           <input placeholder='enter your email' type='text' name='email' value={email} onChange={(e) => setEmail(e.target.value)}  /><br/>
            <label>Password</label><br/>
-           <input type='password' name='password' value={password}  onChange={(e) => setPassword(e.target.value)} placeholder='enter your password'/>
+           <input placeholder='enter your password' type='password' name='password' value={password}  onChange={(e) => setPassword(e.target.value)} />
            <div className="btnSubmit">
                <button type='submit'>Submit</button>
            </div>
